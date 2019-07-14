@@ -15,3 +15,7 @@ tsc index.ts
 tsc --init
 ```
 > 在vscode中，可以通过选择 Terminal(终端)->Run Build Task...(运行生成任务...)->tsc:watch - tsconfig.json 来编译自动ts文件，实现边修改边编译。
+
+### 参考文献
+- [TypeScript入门教程](https://ts.xcatliu.com/)
+- 珠峰架构文档

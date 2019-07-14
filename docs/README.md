@@ -1,14 +1,17 @@
 ---
 home: true
-heroImage: /logo.jpg
+heroImage: /avatar.jpeg
 actionText: 快速上手 →
 actionLink: /javaScript/basic
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 学习笔记
+  details: 总结js基础知识、vue和react相关、node相关和日常开发踩坑...
+- title: 技术网站
+  details: 掘金看看文章，leetcode、codewars练习算法，保持技术的前沿性...
+- title: 个人介绍
+  details: 主要技术：javascript基础、vue、react等框架、node服务、小程序...
+footer: MIT Licensed | Copyright © 2018-present chudongyang
 ---
+
+### star
+如果感觉对您有帮助，请不要吝啬点个star，作者感谢o(￣︶￣)o
