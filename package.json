@@ -1,0 +1,24 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "🖖笔记-->文档",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chudongyang/doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chudongyang/doc/issues"
+  },
+  "homepage": "https://github.com/chudongyang/doc#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
