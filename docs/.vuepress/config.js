@@ -20,9 +20,12 @@ module.exports = {
 		lineNumbers: true,
 	},
 	themeConfig: {
-    sidebarDepth: 1, // 嵌套的标题链接深度。
-		lastUpdated: '更新时间', // 最后更新时间
+    sidebarDepth: 1, // 嵌套的标题链接深度。默认的深度是 1，它将提取到 h2 的标题, 最大深度是2
+		lastUpdated: '更新时间', // 最后更新时间， 基于 git 的
 		displayAllHeaders: false, // 显示所有页面的标题链接
+		activeHeaderLinks: true, // 是否禁用滚动中的标题链接和url中hash值的更新
+		search: false, // 是否禁用搜索框， 也可以通过 Algolia 搜索 替换内置搜索
+    searchMaxSuggestions: 10, // 设置搜索结果数量
 		// 头部导航配置
 		nav,
 		// 侧边栏配置
