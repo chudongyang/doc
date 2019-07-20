@@ -1,5 +1,58 @@
-const sidebar = require('./sidebar');
-const nav = require('./nav');
+const sidebar = [
+	{
+		title: 'javaScript相关',
+		collapsable: false,
+		children: [
+			'/javaScript/basic'
+		]
+	},
+	{
+		title: 'vue相关',
+		collapsable: false,
+		children: [ 
+			'/vue/basic'
+		]
+	},
+	{
+		title: 'react相关',
+		collapsable: false,
+		children: [ 
+			'/react/basic'
+		]
+	},
+	{
+		title: 'TypeScript相关',
+		collapsable: false,
+		children: [ 
+			'/TypeScript/basic',
+			'/TypeScript/数据类型',
+			'/TypeScript/函数',
+			'/TypeScript/类'
+		]
+	},
+	{
+		title: 'book相关',
+		collapsable: false,
+		children: [ 
+			'/book/HTTP'
+		]
+	}
+]
+const nav = [
+	{ text: '掘金专栏', link: 'https://juejin.im/user/586687fe61ff4b006db52c79/posts' }, // 内部链接 以docs为根目录
+	{ text: '博客', link: 'https://chudongyang.github.io/' }, // 外部链接
+	// 下拉列表
+	{
+		text: 'GitHub',
+		items: [
+			{ text: 'GitHub地址', link: 'https://github.com/chudongyang' },
+			{
+				text: '算法仓库',
+				link: 'https://github.com/OBKoro1/Brush_algorithm'
+			}
+		]
+	}        
+]
 module.exports = {
 	title: 'Promise-学习笔记', // 网站的标题，它将会被用作所有页面标题的前缀
 	// 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中
@@ -29,38 +82,6 @@ module.exports = {
 		// 头部导航配置
 		nav,
 		// 侧边栏配置
-		sidebar: [
-			{
-				title: 'javaScript相关',
-				collapsable: false,
-				children: [
-					'/javaScript/basic'
-				]
-			},
-			{
-				title: 'vue相关',
-				collapsable: false,
-				children: [ 
-					'/vue/basic'
-				]
-			},
-			{
-				title: 'react相关',
-				collapsable: false,
-				children: [ 
-					'/react/basic'
-				]
-			},
-			{
-				title: 'TypeScript相关',
-				collapsable: false,
-				children: [ 
-					'/TypeScript/basic',
-					'/TypeScript/数据类型',
-					'/TypeScript/函数',
-					'/TypeScript/类'
-				]
-			}
-		]
+		sidebar
   }
 }
